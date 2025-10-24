@@ -1,3 +1,4 @@
+outlet_identifier,outlet_type,outlet_location_type,outlet_size,total_sales,item_count,avg_rating
 OUT035,Supermarket Type1,Tier 2,Small,133103.91,930,3.94
 OUT046,Supermarket Type1,Tier 1,Small,132113.37,930,3.95
 OUT013,Supermarket Type1,Tier 3,Large,131809.02,932,3.94
