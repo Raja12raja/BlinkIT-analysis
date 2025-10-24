@@ -1,7 +1,14 @@
 # 🛒 BlinkIT Data Analysis Dashboard
 
 ## Project Overview
-This project presents a comprehensive Power BI dashboard for analyzing Blinkit's sales performance, customer satisfaction, and inventory distribution. The dashboard provides key insights and opportunities for optimization using various KPIs and visualizations.
+This project presents a comprehensive Power BI dashboard for analyzing Blinkit's sales performance, customer satisfaction, and inventory distribution. The dashboard provides key insights and opportunities for optimization using various KPIs and visualizations. The analysis includes data cleaning and processing using MySQL to ensure data quality and consistency.
+
+## 🧹 Data Cleaning Process
+The raw data was processed and cleaned using MySQL with the following steps:
+- **Standardized Item Fat Content**: Converted variations to consistent format (low fat → Low Fat, LF → Low Fat)
+- **Standardized Outlet Sizes**: Converted abbreviations to readable names (High → Large)
+- **Data Type Optimization**: Ensured proper data types for numerical columns
+- **Quality Checks**: Validated data integrity and removed inconsistencies
 
 ## 🎯 Key Performance Indicators (KPIs)
 The dashboard focuses on the following primary KPIs:
